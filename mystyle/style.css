@@ -1,0 +1,970 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    overflow: hidden;
+}
+.navbar{
+    background-color: #322d4d;
+    height: 165px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar .logo img {
+    width: 170px;
+    margin: 0 50px 0;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #e1fbfb;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.9;
+    margin-right: 30px;
+}
+.navsection{
+    background-color: #273c66;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.navsection .first i{
+      color: white;
+}
+.navsection .first span{
+    color: white;
+    font-size: 20px;
+    padding-right: 40px;
+}
+.navsection2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navsection2 .phicon{
+    background-color: #21a7d0;
+    padding: 9px 18px;
+    margin-left: 220px;
+}
+.navsection2 .phicon i{
+    font-size: 27px;
+    color: white;
+}
+.navsection2 .sec h5{
+    color: white;
+    line-height: 1.9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-right: 120px;
+    margin-left: 10px;
+}
+
+                                        /* herosection */
+
+.herosection img{
+    width: 100%;
+}
+.coursecards{
+    width: 100%;
+    height: 190px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card{
+    width: 170px;
+    height: 190px;
+    background-color: #383355;
+    border: 1px solid white;
+}                         
+.card h3 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.card .icon i{
+    color: whitesmoke;
+    /* padding: 30px 40px; */
+    align-items: center;
+    margin-left: -23px;
+    margin-top: 22px;
+    margin-bottom: 19px;
+    font-size: 50px;
+}
+/* card2     */
+/* .coursecards{
+    width: 190px;
+    height: 190px;
+    background-color: #383355;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: inline-block;
+} */
+.card2{
+    width: 170px;
+    height: 190px;
+    background-color: #383355;
+    border: 1px solid white;
+
+}
+ .card2 h3 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.card2 .icon i{
+    color: whitesmoke;
+    /* padding: 30px 40px; */
+    align-items: center;
+    margin-left: -23px;
+    margin-top: 22px;
+    margin-bottom: 19px;
+    font-size: 50px;
+}
+/* card3 */
+.card3{
+    width: 170px;
+    height: 190px;
+    background-color: #383355;
+    border: 1px solid white;
+
+}
+ .card3 h3 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.card3 .icon i{
+    color: whitesmoke;
+    /* padding: 30px 40px; */
+    align-items: center;
+    margin-left: -23px;
+    margin-top: 22px;
+    margin-bottom: 19px;
+    font-size: 50px;
+}
+/* card4 */
+.card4{
+    width: 170px;
+    height: 190px;
+    background-color: #383355;
+    border: 1px solid white;
+
+}
+ .card4 h3 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.card4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.card4 .icon i{
+    color: whitesmoke;
+    /* padding: 30px 40px; */
+    align-items: center;
+    margin-left: -23px;
+    margin-top: 22px;
+    margin-bottom: 19px;
+    font-size: 50px;
+}
+/* card5 */
+.card5{
+    width: 170px;
+    height: 190px;
+    background-color: #383355;
+    border: 1px solid white;
+
+}
+ .card5 h3 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.card5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.card5 .icon i{
+    color: whitesmoke;
+    /* padding: 30px 40px; */
+    align-items: center;
+    margin-left: -23px;
+    margin-top: 22px;
+    margin-bottom: 19px;
+    font-size: 50px;
+}
+/* card6 */
+.card6{
+    width: 170px;
+    height: 190px;
+    background-color: #383355;
+    border: 1px solid white;
+
+}
+ .card6 h3 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.card6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.card6 .icon i{
+    color: whitesmoke;
+    /* padding: 30px 40px; */
+    align-items: center;
+    margin-left: -23px;
+    margin-top: 22px;
+    margin-bottom: 19px;
+    font-size: 50px;
+}
+/* full block */
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.firstblock{
+    background-color: #122a58;
+    height: 550px;
+    width: 350px;
+}
+.firstblock h3{
+    padding-top: 40px;
+    padding-left: 35px;
+    color: #6ec1e4;
+}
+.firstblock h1{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+.firstblock p{
+    padding-left: 35px;
+    padding-top: 20px;
+    color: white;
+}
+.firstblock button{
+    margin-left: 35px;
+    margin-top: 35px;
+    padding: 9px 20px;
+    background-color: #6ec1e4;
+    border-radius: 5px;
+    color: white;
+}
+/* secondblock */
+
+.secondblock{
+    height: 150px;
+    width: 720px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.secondblock .firstchild{
+    background-color: #fbf8cc;
+    height: 145px;
+    width: 230px;
+    
+}
+.secondblock .secondchild{
+    background-color: #e9fbd5;
+    height: 145px;
+    width: 230px;
+}
+.secondblock .thirdchild{
+    background-color: #dcf1fd;
+    height: 145px;
+    width: 230px;
+}
+.secondchild h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.secondchild p{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.firstchild h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.firstchild p{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.thirdchild h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.thirdchild p{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+/* thirdblock */
+.thirdblock img{
+    margin-top: 20px;
+
+}
+/* halfblock */
+.halfblock{
+ margin-left: -60px;   
+}
+.fullblock{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+/* degree cards */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgba(66, 131, 152, 0.564);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 400px;
+}
+
+.flip-card-back {
+  background-color: #122a58;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}
+.flip-card-back h2{
+  margin-top: 120px;
+}
+.flip-card-back p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.imgea1{
+  background: url(../images/course1.webp);
+  height: 320px;
+  width: 370px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgba(66, 131, 152, 0.564);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 400px;
+}
+
+.flip-card-back {
+  background-color: #122a58;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}
+.flip-card-back h2{
+  margin-top: 120px;
+}
+.flip-card-back p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.imgea2{
+  background: url(../images/course2.webp);
+  height: 320px;
+  width: 370px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgba(66, 131, 152, 0.564);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 400px;
+}
+
+.flip-card-back {
+  background-color: #122a58;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}
+.flip-card-back h2{
+  margin-top: 120px;
+}
+.flip-card-back p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.imgea3{
+  background: url(../images/course3.webp);
+  height: 320px;
+  width: 370px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgba(66, 131, 152, 0.564);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 400px;
+}
+
+.flip-card-back {
+  background-color: #122a58;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}
+.flip-card-back h2{
+  margin-top: 120px;
+}
+.flip-card-back p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.imgea4{
+  background: url(../images/course4.webp);
+  height: 320px;
+  width: 370px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgba(66, 131, 152, 0.564);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 400px;
+}
+
+.flip-card-back {
+  background-color: #122a58;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}
+.flip-card-back h2{
+  margin-top: 120px;
+}
+.flip-card-back p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.imgea5{
+  background: url(../images/course5.avif);
+  height: 320px;
+  width: 370px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flip-card {
+  background-color: transparent;
+  width: 360px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgba(66, 131, 152, 0.564);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 400px;
+}
+
+.flip-card-back {
+  background-color: #122a58;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}
+.flip-card-back h2{
+  margin-top: 120px;
+}
+.flip-card-back p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.imgea6{
+  background: url(../images/course6.webp);
+  height: 320px;
+  width: 370px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outer{
+  display: flex;
+  height: 641px;
+  width: 1110px;
+  flex-wrap: wrap;
+  margin-left: 70px;
+}
+.outer1{
+  background-color: #f3f8f9;
+  height: 710px;
+  width: 100%;
+}
+.gap{
+  height: 60px;
+  width: 100%;
+  background-color: rgb(243, 248, 249);
+  margin-top: 30px;
+}
+
+/* degree cards */
+  /* iframe video */
+  .ifram h1{
+   text-align: center;
+  }
+  .ifram iframe{
+    margin-top: 20px;
+  }
+  .ifram{
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  /* celebrate div */
+  .box1{
+    height: 450px;
+    width: 590px;
+    background-color: rgba(65, 83, 121, 0.829);
+    color: white;
+    display: flex;
+    align-items: center;
+    z-index: 4;
+  }
+  .box1 h1{
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .inner1{
+    height: 110px;
+    width: 110px;
+    border: 3px solid white;
+    border-radius: 50%;
+    z-index: 0;
+    margin-left: 15px;
+  }
+  .inner1 i{
+    font-size: 50px;
+    margin-left: 28px;
+    margin-top: 28px;
+  }
+  .Outer1{
+    background: url(../images/celebrate.webp);
+    height: 450px;
+    width: 590px;
+    background-size: cover;
+  }
+  .outer2{
+    background: url(../images/classroom.jpg);
+    height: 450px;
+    width: 590px;
+    background-size: cover;
+    display: flex;
+  }
+  .box2{
+    height: 450px;
+    width: 590px;
+    background-color: #fdfdfdc0;
+  }
+  .box2 h1 {
+    color: rgb(50, 45, 77);
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-top: 60px;
+    margin-left: 65px;
+    margin-bottom: 15px;
+  }
+  .box2  li{
+    color: rgb(80, 80, 80);
+    font-family: "Poppins", sans-serif;
+    margin-left: 80px;
+  }
+  .box2 button{
+    margin-left: 65px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: #6ec1e4;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+  }
+  .celebrat{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  
+
+/* client love portion */
+.client  img{
+    height: 350px;
+    width: 368px;
+    align-items: center;
+}
+.client{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+/* skill development */
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 40px;
+    margin-top: 70px;
+
+}
+.skill img{
+    width: 340px;
+    height: 93px;
+}
+/* footer */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contAiner{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #322d4d;
+    padding: 70px 0;
+    margin-top: 50px;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
